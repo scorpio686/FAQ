@@ -1,6 +1,6 @@
 Activer le pvp :
 
-FXServer\resources\essentialmode\server\util.lua
+\essentialmode\server\util.lua
 
 ['pvpEnabled'] = true,
 
@@ -8,7 +8,7 @@ FXServer\resources\essentialmode\server\util.lua
 
 Désactiver le niveau de recherche la police (PNJ) :
 
-FXServer\resources\[essential]\es_extended\config.lua
+\es_extended\config.lua
 
 Config.DisableWantedLevel       = true
 
