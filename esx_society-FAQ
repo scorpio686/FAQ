@@ -1,7 +1,7 @@
 TEST
 
 
--------------------------------------------------------------------------------------------------------------------------------------
+#####################################################################################################################################
 
 Error running system event handling function for resource esx_society: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: server/main.lua:39: attempt to index a nil value (field '?')
 stack traceback:
@@ -12,6 +12,8 @@ stack traceback:
         citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
         citizen:/scripting/lua/scheduler.lua:162: in function <citizen:/scripting/lua/scheduler.lua:131>
         
+--------------------------------------------------
+Ligne concernée par l'erreur : Jobs[result2[i].job_name].grades[tostring(result2[i].grade)] = result2[i]
 
 solution : Vérifier votre table job_grades. Il y a probablement un grade en trop/manquant pour un job ajouté ou supprimé.
--------------------------------------------------------------------------------------------------------------------------------------
+#####################################################################################################################################
