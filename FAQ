@@ -21,3 +21,19 @@ Effacer le cache de FiveM (répertoire par défaut):
 Supprimer tout, sauf le répertoire GAME !!!
 
 ------------------------------------------------------------------------------------------------------------------------------------
+
+Emplacement du spawn d'arrivée pour les nouveaux joueurs (l'aéroport est le plus recherché) :
+
+-FXserver\resources\fivem-map-hipster\map.lua
+-FXserver\resources\fivem-map-skater\map.lua
+
+Modifiez les coordonnées dans le map.lua utilisée.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Essential mode 4.6.3 :
+
+https://kanersps.pw/files/essential4.zip
+
+------------------------------------------------------------------------------------------------------------------------------------
+
