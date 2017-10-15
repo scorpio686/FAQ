@@ -1,0 +1,23 @@
+Activer le pvp :
+
+FXServer\resources\essentialmode\server\util.lua
+
+['pvpEnabled'] = true,
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Désactiver le niveau de recherche la police (PNJ) :
+
+FXServer\resources\[essential]\es_extended\config.lua
+
+Config.DisableWantedLevel       = true
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Effacer le cache de FiveM (répertoire par défaut):
+
+*:\Users\*******\AppData\Local\FiveM\FiveM.app\cache
+
+Supprimer tout, sauf le répertoire GAME !!!
+
+------------------------------------------------------------------------------------------------------------------------------------
