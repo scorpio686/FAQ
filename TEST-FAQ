@@ -1,0 +1,17 @@
+TEST
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Error running system event handling function for resource esx_society: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: server/main.lua:39: attempt to index a nil value (field '?')
+stack traceback:
+        server/main.lua:39: in upvalue 'handler'
+        citizen:/scripting/lua/scheduler.lua:163: in function <citizen:/scripting/lua/scheduler.lua:162>
+stack traceback:
+        [C]: in function 'error'
+        citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
+        citizen:/scripting/lua/scheduler.lua:162: in function <citizen:/scripting/lua/scheduler.lua:131>
+        
+
+solution : Vérifier votre table job_grades. Il y a probablement un grade en trop/manquant pour un job ajouté ou supprimé.
+-------------------------------------------------------------------------------------------------------------------------------------
