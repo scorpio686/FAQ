@@ -16,4 +16,21 @@ stack traceback:
 Ligne concernée par l'erreur : Jobs[result2[i].job_name].grades[tostring(result2[i].grade)] = result2[i]
 
 solution : Vérifier votre table job_grades. Il y a probablement un grade en trop/manquant pour un job ajouté ou supprimé.
+
 #####################################################################################################################################
+
+Modifier l'heure du blanchiment d'argent sale :
+
+TriggerEvent('cron:runAt', 3, 0, WashMoneyCRON)
+
+\esx_society\server\main.lua tout en bas dans le fichier.
+
+#####################################################################################################################################
+
+
+
+
+
+
+
+
