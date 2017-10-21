@@ -1,0 +1,23 @@
+Configuration du nombre maximum de policiers en service (-1 = illimité)
+
+esx_policejob/config.lua
+
+Config.MaxInService               = -1
+
+#####################################################################################################################################
+
+Activer la gestion du métier par un joueur
+
+esx_policejob/config.lua
+
+Config.EnablePlayerManagement     = true
+
+#####################################################################################################################################
+
+Gestion des véhicules de société par le patron (véhicule à ajouter dans le concessionnaire et achat sur place)
+
+esx_policejob/config.lua
+
+Config.EnableSocietyOwnedVehicles = true
+
+#####################################################################################################################################
