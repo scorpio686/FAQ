@@ -1,0 +1,53 @@
+Activer la gestion du métier par un joueur
+
+esx_policejob/config.lua
+
+Config.EnablePlayerManagement     = true
+
+#####################################################################################################################################
+
+Activer la gestion de l'armurerie par le patron
+
+esx_policejob/config.lua
+
+Config.EnableArmoryManagement     = true
+
+#####################################################################################################################################
+
+Activer le contrôle d'identité par les policiers
+
+esx_policejob/config.lua
+
+Config.EnableESXIdentity          = true -- only turn this on if you are using esx_identity
+
+#####################################################################################################################################
+
+Activation des costumes de GTA (Change le visage)
+
+esx_policejob/config.lua
+
+Config.EnableNonFreemodePeds      = true -- turn this on if you want custom peds
+
+#####################################################################################################################################
+
+Gestion des véhicules de société par le patron (véhicule à ajouter dans le concessionnaire et achat sur place)
+
+esx_policejob/config.lua
+
+Config.EnableSocietyOwnedVehicles = true
+
+#####################################################################################################################################
+
+Activer le contrôle des permis par les policiers
+
+esx_policejob/config.lua
+
+Config.EnableLicenses             = true
+
+#####################################################################################################################################
+
+Configuration du nombre maximum de policiers en service (-1 = illimité)
+
+esx_policejob/config.lua
+
+Config.MaxInService               = -1 
