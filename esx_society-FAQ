@@ -15,7 +15,7 @@ stack traceback:
 --------------------------------------------------
 Ligne concernée par l'erreur : Jobs[result2[i].job_name].grades[tostring(result2[i].grade)] = result2[i]
 
-solution : Vérifier votre table job_grades. Il y a probablement un grade en trop/manquant pour un job ajouté ou supprimé.
+solution : Vérifier votre table jobs et job_grades. Il y a probablement un job ou un grade en trop/manquant.
 
 #####################################################################################################################################
 
