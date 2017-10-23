@@ -1,8 +1,3 @@
-TEST
-
-
-#####################################################################################################################################
-
 Error running system event handling function for resource esx_society: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: server/main.lua:39: attempt to index a nil value (field '?')
 stack traceback:
         server/main.lua:39: in upvalue 'handler'
