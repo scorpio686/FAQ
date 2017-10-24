@@ -27,7 +27,7 @@ Emplacement du spawn d'arrivée pour les nouveaux joueurs (l'aéroport est le pl
 -FXserver\resources\fivem-map-hipster\map.lua
 -FXserver\resources\fivem-map-skater\map.lua
 
-Modifiez les coordonnées dans le map.lua utilisée.
+Modifiez les coordonnées dans le map.lua utilisé.
 
 #####################################################################################################################################
 
