@@ -51,3 +51,22 @@ Configuration du nombre maximum de policiers en service (-1 = illimité)
 esx_policejob/config.lua
 
 Config.MaxInService               = -1 
+
+#####################################################################################################################################
+
+Si vous avez un problème dans l'armurerie, qu'après chaque achat la barre de sélection remonte au 1er item, aller dans \esx_policejob\client\main.lua
+
+Chercher la ligne : OpenBuyWeaponsMenu(station)
+
+Située dans :
+
+              ESX.TriggerServerCallback('esx_policejob:addArmoryWeapon', function()
+              OpenBuyWeaponsMenu(station)
+              end, data.current.value)
+
+Et remplacé la par cette ligne : ESX.ShowNotification('Arme Achetée')
+
+#####################################################################################################################################
+
+
+
