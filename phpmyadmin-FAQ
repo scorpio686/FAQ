@@ -1,0 +1,22 @@
+ #1698 - Access denied for user 'root'@'localhost'
+ 
+ Pour créer un nouvel utilisateur, c'est simple, utilisez les commandes suivants dans putty (connecté en root) :
+ 
+      mysql -u root -p
+ 
+ Et insérer votre mot de passe root (ici il fonctionnera).
+ 
+ Une vois connecté en mysql, utilisez la commande suivante :
+ 
+      CREATE USER 'VotreUser'@'localhost' IDENTIFIED BY 'VotreMotDePasse';
+      
+Puis utiliser la commande suivante :
+
+      grant all privileges on *.* to 'VotreUser'@'localhost' identified by 'VotreMotDePasse' with grand option;
+      
+
+
+C'est terminé. Vous devriez pouvoir vous connecter à phpmyadmin avec votre nouveau compte d'utilisateur.
+
+#####################################################################################################################################
+
