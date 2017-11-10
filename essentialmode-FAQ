@@ -1,0 +1,9 @@
+Donner une certaine somme d'argent à la première connexion du joueur :
+
+resources\essentialmode\server\util.lua
+
+['startingCash'] = 0,
+['startingBank'] = 0,
+
+#####################################################################################################################################
+
