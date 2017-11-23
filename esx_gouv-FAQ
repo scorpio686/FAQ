@@ -10,6 +10,11 @@ stack traceback:
 --------------------------------------------------
 Ligne concernée par l'erreur : players[_source] = nil
 
-solution : Encore à définir.
+solution : Insérer la ligne manquante :
+
+AddEventHandler("playerDropped", function(reason)
+	local _source = source
+	players[_source] = nil
+end)
 
 #####################################################################################################################################
