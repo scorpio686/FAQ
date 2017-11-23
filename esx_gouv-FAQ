@@ -1,0 +1,15 @@
+Error running system event handling function for resource esx_gouv: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: server.lua:10: table index is nil
+stack traceback:
+        server.lua:10: in upvalue 'handler'
+        citizen:/scripting/lua/scheduler.lua:163: in function citizen:/scripting/lua/scheduler.lua:162
+stack traceback:
+        [C]: in function 'error'
+        citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
+        citizen:/scripting/lua/scheduler.lua:162: in function citizen:/scripting/lua/scheduler.lua:131
+        
+--------------------------------------------------
+Ligne concernée par l'erreur : players[_source] = nil
+
+solution : Encore à définir.
+
+#####################################################################################################################################
