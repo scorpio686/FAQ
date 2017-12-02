@@ -1,0 +1,16 @@
+Les termes male ou female doivent être utilisés (ou modifier dans le script), dans la base de données pour que l'affichage fonctionne.
+
+Fais la requête suivante ou adapter la à vos besoins :
+
+UPDATE `users` SET `sex`="male" WHERE `sex`=m;
+
+UPDATE `users` SET `sex`="female" WHERE `sex`=f;
+
+UPDATE `users` SET `sex`="male" WHERE `sex`=h;
+
+UPDATE `users` SET `sex`="male" WHERE `sex`=homme;
+
+UPDATE `users` SET `sex`="female" WHERE `sex`=femme;
+
+#####################################################################################################################################
+
